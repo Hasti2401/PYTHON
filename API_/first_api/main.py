@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from operations import(
+from first_api.operations import(
     get_students,
     get_student,
     add_student,
